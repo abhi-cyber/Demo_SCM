@@ -7,5 +7,6 @@ int main(){
 	cout << "My name is Abhiraj";
 	cout << "I am 18 years old";
 	cout << "I study in Chitkara University";
+	cout << "I am in group 1";
 	return 0;
 }
