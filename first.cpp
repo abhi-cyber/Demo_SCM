@@ -10,3 +10,11 @@ int main(){
 	cout << "I am in group 1";
 	return 0;
 }
+
+void Student(){
+	string name;
+	cout << "Enter your name:-- ";
+	cin >> name;
+	cout << "Hi " << name << " .";
+}
+Student();	
