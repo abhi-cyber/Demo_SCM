@@ -10,11 +10,16 @@ int main(){
 	cout << "I am in group 1";
 	return 0;
 }
-
+void group(){
+	string group;
+	cout << "Enter your group -->";
+	cin >> group;
+}
 void Student(){
 	string name;
 	cout << "Enter your name:-- ";
 	cin >> name;
 	cout << "Hi " << name << " .";
 }
-Student();	
+group();
+Student();
